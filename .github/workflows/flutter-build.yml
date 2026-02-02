@@ -53,6 +53,7 @@ env:
   API_SERVER: "${{ secrets.API_SERVER }}"
   RS_PUB_KEY: "${{ secrets.RS_PUB_KEY }}"
   DEFAULT_PASSWORD: "${{ secrets.DEFAULT_PASSWORD }}"
+  DEFAULT_PASSWORD_PIN: "${{ secrets.DEFAULT_PASSWORD_PIN }}"
 
 jobs:
   generate-bridge:
